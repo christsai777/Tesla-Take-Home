@@ -1,7 +1,8 @@
 # Tesla-Take-Home
 
-<h1> Question 1
+<h2> Question 1
 
+<p>
 With my understanding on solar plants, I assumed that the solar/BES inverters
 were the components that were able to control the component to either turn it
 higher or lower. If the inverter were to draw power out of the component instead,
@@ -17,8 +18,9 @@ actions that need to be taken. The DNP3 points are placed to try to do as much
 of error handling as possible, measuring both the states and quality of the
 hardware components and to see if any troubleshooting or red flags will appear.
 
+</p>
 <h2> Question 2
-
+<p>
 For the second question, my apporach is that we are creating an object
 PowerPlant and that this is one of the numerous functions that we will create.
 I am working with the assumption that for the power plant to be efficient, we
@@ -47,8 +49,10 @@ using a CSV in the future for this specific function so I created it as such.
 I enforced that the rating system should be from 0-100, which I assume is the
 reliability of the specific hardware component.
 
-<h3> Question 3
+</p>
+<h1> Question 3
 
+<p>
 For question 3, my approach when I first see the problem is that I am given
 a list of ip addresses and want to filter by the 3rd of the ip address which
 contains the subnet. So in Python, I first import ipaddresses and format it into
@@ -56,3 +60,4 @@ a string. Next we split the ip addresses into its individual parts with the
 delimiter of "." . If there is not 4 parts to the ip address, then we throw an
 error. Then, we check if the subnet part equals 60, if it does, we append it 
 as valid and return list of results.
+</p>
