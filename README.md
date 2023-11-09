@@ -1,6 +1,6 @@
 # Tesla-Take-Home
 
-<h2> Question 1
+<h2> Question 1 </h2>
 
 <p>
 With my understanding on solar plants, I assumed that the solar/BES inverters
@@ -19,7 +19,7 @@ of error handling as possible, measuring both the states and quality of the
 hardware components and to see if any troubleshooting or red flags will appear.
 
 </p>
-<h2> Question 2
+<h2> Question 2 </h2>
 <p>
 For the second question, my apporach is that we are creating an object
 PowerPlant and that this is one of the numerous functions that we will create.
@@ -50,7 +50,7 @@ I enforced that the rating system should be from 0-100, which I assume is the
 reliability of the specific hardware component.
 
 </p>
-<h1> Question 3
+<h2> Question 3 </h2>
 
 <p>
 For question 3, my approach when I first see the problem is that I am given
