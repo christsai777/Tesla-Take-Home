@@ -1,0 +1,120 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "solar_panels": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "rating": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100,
+              },
+              "model_number": {
+                "type": "integer"
+              },
+              "is_connected": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "id",
+              "rating",
+              "model_number",
+              "is_connected"
+            ]
+          }
+        ]
+      },
+      "batteries": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "rating": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100
+              },
+              "model_number": {
+                "type": "integer"
+              },
+              "is_connected": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "id",
+              "rating",
+              "model_number",
+              "is_connected"
+            ]
+          }
+        ]
+      },
+      "solar_panels_setpoint": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "setpoint": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "id",
+              "setpoint"
+            ]
+          }
+        ]
+      },
+      "batteries_setpoint": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "setpoint": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "id",
+              "setpoint"
+            ]
+          }
+        ]
+      },
+      "site_load": {
+        "type": "integer"
+      },
+      "utility_output": {
+        "type": "integer"
+      }
+    },
+    "required": [
+      "solar_panels",
+      "batteries",
+      "solar_panels_setpoint",
+      "batteries_setpoint",
+      "site_load",
+      "utility_output"
+    ]
+  }
