@@ -1,0 +1,6 @@
+Available PV Power,Available BES Power,Site Load,Utility Export Limit,Calculated Solar Setpoint,Calculated Battery Setpoint
+200 MW,300 MW,100 MW,0 MW,100 NM,0 NM
+100 MW,300 MW,200 MW,0 MW,100 NM,100 NM
+0 MW,300 MW,200 MW,0 MW,0 NM,200 NM
+0 MW,300 MW,100 MW,300 MW,0 NM,300 NM
+200 MW,200 MW,100 MW,100 MW,200 NM,0 NM
