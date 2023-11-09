@@ -2,6 +2,21 @@
 
 <h1> Question 1
 
+With my understanding on solar plants, I assumed that the solar/BES inverters
+were the components that were able to control the component to either turn it
+higher or lower. If the inverter were to draw power out of the component instead,
+then the diagram would have the inverters between the hardware commponent and
+the Utility Outlet.
+
+I made the diagram so that the operator is sitting in an office away from the 
+site and has to VLAN into the power plant controller device through a firewall
+and VLAN component. And then the controller device will go through a network
+switch that each component is connected to and control them through the inverters.
+Lastly, the meters will feed data back to the controller in case of errors or
+actions that need to be taken. The DNP3 points are placed to try to do as much
+of error handling as possible, measuring both the states and quality of the
+hardware components and to see if any troubleshooting or red flags will appear.
+
 <h2> Question 2
 
 For the second question, my apporach is that we are creating an object
